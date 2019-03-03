@@ -1,8 +1,7 @@
 html{
 	width:100%;
 }
-
-body>div:not(.long){
+.wrap{
 	width:1010px;
 	margin:0 auto;
 }
