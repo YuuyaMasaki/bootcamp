@@ -1,0 +1,271 @@
+html{
+	width:375px;
+	margin:0 auto;
+	background-color: #DCDCDC;
+}
+
+	
+header{
+	width:100%;
+
+}
+.header-logo{
+	padding:5px 0;
+	width:100%;
+	height:40px;
+	background-color:white;
+	line-height:40px;
+}
+.header-logo a{
+line-height:40px;
+}
+
+.title{
+	text-align:center;
+	font-size:24px;
+	letter-spacing:5px;
+}
+
+.fa-bars{
+	float:left;
+	width:100px;
+}
+.fa-search{
+	float:right;
+	width:100px;
+}
+.top-container{
+	color:white;
+	font-weight:900;
+	height:200px;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXDksKpCAfUIOAHMzeAwK0D1fVMtaZ75xe8K2GADYky11BY_FFuA);
+	background-size:cover;
+}
+.top-text{
+	font-size:20px;
+	padding-top:120px;
+	padding-right:60px;
+	padding-left:20px;
+}
+.text{
+	font-weight:bold;
+}
+.main{
+	background-color: white;
+	height:600px;
+}
+.index:hover{
+	background-color:white;
+	float:left;
+	width:50%;
+	text-align:center;
+	border-bottom:solid 2px red;
+	font-size:15px;
+	padding:15px 0;
+	color:red;
+	font-weight:bold;
+}
+.index{
+	background-color:white;
+	float:left;
+	width:50%;
+	text-align:center;
+	border-bottom:solid 1px black;
+	font-size:15px;
+	padding:15px 0;
+}
+.contents-wrapper{
+	background-color:white;
+	height:600px;
+}
+.content{
+	border-bottom:solid 1px rgba(0,0,0,0.4);
+	float:right;
+	font-size:15px;
+	padding-top:10px;
+	background-color:white;
+}
+.explain{
+	margin-top:5px;
+		width:100%;
+}
+.image{
+	width:18%;
+	float:left;
+}
+.space{
+	height:200px;
+}
+.detail{
+	height:30px;
+	width:80%;
+	float:right;
+	padding-top:5px;
+	margin:0;
+	color:rgba(0,0,0,0.3);
+}
+.viewer{
+	float:left;
+	font-size:15px;
+	padding-bottom:0;
+	margin-top:10px;
+}
+.editer{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.pages{
+	height:50px;
+	background-color:#EEEEEE;
+	color:rgba(0,0,0,0.4);
+}
+.page{
+	text-align:center;
+	margin:0 auto;
+	height:100%;
+	line-height:45px;
+}
+.fa-chevron-right{
+	margin-top:15px;
+	margin-right:10px;
+	float:right;
+
+}
+.contents-logo{
+	width:100%;
+	float:left;
+	border-bottom:solid 1px black;
+
+	font-size:15px;
+	padding:15px 0;
+}
+.contents-logo p{
+	margin:0 15px 0 ;
+}
+.space2{
+	height:50px;
+}
+.advertisement{
+	background-image:url(https://d1f5hsy4d47upe.cloudfront.net/12/128c8e0a211f9e5210e9bfe6d074c973_t.jpeg);
+	background-size:cover;
+	height:300px;
+
+}
+.advertisement h2{
+	padding-left:30px;
+	padding-top:30px;
+	padding-bottom:70px;
+	font-size:30px;
+	margin:0;
+}
+.advertisement span::before{
+	white-space:pre;
+	content:'\A';
+}
+.advertisement h3{
+padding-left:30px;
+font-size:15px;
+}
+.advertisement h4{
+	padding:5px 30px;
+	font-size: 12px;
+}
+.btn{
+	height:10px;
+	padding:15px 10px;
+	background-color:pink;
+	box-shadow:0 7px red;
+	margin:0 auto;
+	width:70%;
+	color:white;
+	margin:10px auto;
+
+}
+.btn:active{
+	box-shadow:none;
+	position:relative;
+    top:7px;
+}
+.btn a{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	
+}
+.footer{
+	margin-top:30px;
+}
+.footer-wrapper{
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.footer-main{
+	margin:0 auto;
+	margin-top:30px;
+	display:table;
+	width:80%;
+}
+.footer-logo{
+    text-align:center;
+    font-size:30px;
+}
+.elements{
+	font-size:20px;
+	text-align:center;
+	width:20%;
+	display:table-cell;
+	margin:0 5px;
+}
+.return-botton{
+	background-color:white;
+	text-align:center;
+	margin:20px 20px 20px 20px; 
+	font-size:15px;
+	height:50px;
+	border-radius:10px
+}
+.return-botton a{
+	line-height:50px;
+}
+.fa-chevron-up{
+	display:inline-block;
+	margin-right:10px;
+
+}
+.contact-wrapper{
+	width:50%;
+	display:table;
+	margin:0 auto;
+}
+.contact{
+	margin:0 auto;
+}
+.qa,.inquiry,.terms{
+	display:table;
+	width:33%;
+	float:left;
+	text-align:center;
+	font-size:10px;
+	height:15px;
+	line-height:15px;
+	color:rgba(0,0,0,0.3);
+	margin-bottom:10px;
+}
+.qa,.inquiry{
+	border-right:1px solid rgba(0,0,0,0.2);
+}
+.privacy,.owner{
+	font-size:10px;
+	text-align:center;
+	color:rgba(0,0,0,0.3);
+	margin:10px 0;
+}
+.icon{
+	display:block;
+	font-size:70px;
+	width:100%;
+	text-align:center;
+	color:rgba(0,0,0,0.3);
+}
